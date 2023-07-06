@@ -19,7 +19,7 @@ def medication():
     ai_response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "What are the most commonly prescribed medications for %s? Exclude medications for bipolar I depression " % diagnosis, }]
+            {"role": "system", "content": "What are the most commonly prescribed medications for %s?" % diagnosis, }]
     )
 
     return {'message': ai_response}
