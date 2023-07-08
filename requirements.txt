@@ -23,4 +23,4 @@ tqdm==4.65.0
 urllib3==2.0.3
 # Werkzeug==2.3.6
 yarl==1.9.2
-langchain==0.0.174
+# langchain==0.0.174
